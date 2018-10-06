@@ -37,6 +37,10 @@ gem 'jbuilder', '~> 2.5'
 
 # multi-process
 gem 'foreman'
+gem 'jquery-rails'
+gem 'jquery-turbolinks'
+gem 'materialize-sass'
+gem 'material_icons'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
