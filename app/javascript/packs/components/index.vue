@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-wrap">
     <!-- 新規作成部分 -->
     <div class="row">
       <div class="col s10 m11">
@@ -107,6 +107,10 @@ export default {
 <style scoped>
 [v-cloadk] {
   display: none;
+}
+
+.container-wrap {
+  margin-top: 20px;
 }
 
 .display_none {
